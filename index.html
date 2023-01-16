@@ -1,0 +1,29 @@
+<html>
+<head>
+
+<title>Ejemplo 3: Manipulación del DOM</title>
+
+
+</head>
+<body>
+
+	<h1>Lista de invitados</h1>
+
+	Ingrese nombre del invitado: <br />
+	<input type="text" id="ingreso" /> <input type="button" value="Agregar a la lista" onClick="agregar()" />
+
+		<hr /> 
+
+	<div id="lista">
+	<h3> Lista de invitados </h3>
+	</div>
+
+		<hr />
+
+	<form action="noimporta" method="get" id="formoculto" onSubmit="return validar()">
+
+	<input type="submit" value="Enviar lista" />
+	</form>
+
+</body>
+</html>
